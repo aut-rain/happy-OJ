@@ -8,6 +8,7 @@
 - 安装 [Node.js  v20.15.1](https://nodejs.org/en)
 - 安装 [pnpm](https://pnpm.io/installation)
 - 安装 [Visual Studio Build Tools](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/)
+- 将.npmrc内的Python地址换成你的python地址
 
 ### 操作步骤
 
