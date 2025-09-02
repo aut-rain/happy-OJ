@@ -1,6 +1,5 @@
 # happy-OJ
 这是一个快乐的OJ网站(开发中,目前只有前端)
->>>>>>> 7f5be7ab01728c4f015bfdc87ba3b450d648bdfa
 
 [**项目地址**](https://space.coze.cn/task/7545520433560551680)
 
