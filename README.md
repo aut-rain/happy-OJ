@@ -1,2 +1,28 @@
 # happy-OJ
 这是一个快乐的OJ网站(开发中,目前只有前端)
+>>>>>>> 7f5be7ab01728c4f015bfdc87ba3b450d648bdfa
+
+[**项目地址**](https://space.coze.cn/task/7545520433560551680)
+
+## 本地开发
+
+### 环境准备
+
+- 安装 [Node.js](https://nodejs.org/en)
+- 安装 [pnpm](https://pnpm.io/installation)
+
+### 操作步骤
+
+- 安装依赖
+
+```sh
+pnpm install
+```
+
+- 启动 Dev Server
+
+```sh
+pnpm run dev
+```
+
+- 在浏览器访问 http://localhost:3000
