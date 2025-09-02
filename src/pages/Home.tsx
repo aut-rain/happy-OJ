@@ -531,9 +531,7 @@ export default function Home() {
                 提供高质量的编程题目和评测服务，帮助开发者提升算法能力
               </p>
               <div className="flex gap-4 text-xl">
-                <a href="#" className="hover:text-white transition-colors"><i className="fa-brands fa-github"></i></a>
-                <a href="#" className="hover:text-white transition-colors"><i className="fa-brands fa-twitter"></i></a>
-                <a href="#" className="hover:text-white transition-colors"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/aut-rain/happy-OJ" className="hover:text-white transition-colors"><i className="fa-brands fa-github"></i></a>
               </div>
             </div>
             
