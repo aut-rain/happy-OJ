@@ -1,6 +1,7 @@
 import { Submission, SubmissionResult } from '@/types/problem';
 
 // Mock evaluation function
+// @ts-ignore
 const evaluateCode = (code: string, language: string): SubmissionResult => {
   // Simple mock evaluation based on code content and language
   // In a real application, this would be an API call to a backend judge system
@@ -44,12 +45,12 @@ export default function useSubmission() {
       language,
       submittedAt: new Date().toISOString(),
       result,
-      codeLength: code.length,
-      
+
       // Add execution details if applicable
       executionTime: result === 'accepted' ? Math.floor(Math.random() * 500) + 50 : undefined,
       memoryUsed: result === 'accepted' ? Math.floor(Math.random() * 1024) + 512 : undefined,
-      judgeInfo: result === 'compile_error' ? '语法错误: 缺少分号' : undefined
+      judgeInfo: result === 'compile_error' ? '语法错误: 缺少分号' : undefined,
+      codeLength: code.length
     };
     
     return submission;

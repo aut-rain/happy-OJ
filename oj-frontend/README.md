@@ -1,13 +1,11 @@
 # happy-OJ
-这是一个快乐的OJ网站(前后端都正在开发,别催,小爷我嘎巴一下就会没了)
-
-![](./docs/images/index.png)
+这是一个快乐的OJ网站(开发中,目前只有前端)
 
 ## 一期demo
 1. 这是一个OJ网站,大概思路是提供md格式的题目以及用户可以点击提交进行测评,用户选择语言后可以点击提交后,  
    前端会把根据用户选择的语言把代码命名为对应格式比如C语言命名为main.c,Java语言命名为main.java,C++语言命名为main.cpp,然后传给后端进行测评,  
    测评方式是运行用户提交的代码文件然后根据题目对应的输入测试样例进行结果输出,  
-   最终将用户的输出结果和对应的测试样例答案结果进行匹配,如果对了则前端返回accept,反之返回wrong,如果运行异常,则输出exception;
+   最终将用户的输出结果和对应的测试样例答案结果进行匹配,如果对了则前端返回accept,反之返回wrong,如果运行异常,则输出exception;  
 2. 题目格式按照ACM赛制的形式
 3. 主页可以稍微炫酷一些,并加上搜索功能,用户可以通过标签和题目名称进行搜索
 
@@ -19,7 +17,7 @@
 4. 三级身份权限验证,  
    root用户全能,  
    管理员可以被root授予增删改查题目和比赛以及用户管理的权限,  
-   普通用户可以申请创建比赛的资格
+   普通用户可以申请创建比赛的资格  
 6. 完善题库功能
 7. 完善比赛功能
 8. 完善排行榜功能
@@ -35,10 +33,6 @@
 ## 本地开发
 
 ### 环境准备
-
-- 配置[jdk17]([Java Downloads | Oracle](https://www.oracle.com/java/technologies/downloads/#jdk17-windows))
-- 安装[maven]([Download Apache Maven – Maven](https://maven.apache.org/download.cgi))
-- 安装[MySQL8.0]([MySQL :: Download MySQL Community Server](https://dev.mysql.com/downloads/mysql/))
 
 - 安装 [Node.js  v20.15.1](https://nodejs.org/en)
 - 安装 [pnpm](https://pnpm.io/installation)
@@ -59,7 +53,6 @@ pnpm run dev
 ```
 
 - 在浏览器访问 http://localhost:3000
-- 后端等我的好消息吧
 
 ---
 
@@ -68,8 +61,6 @@ pnpm run dev
 **开发规范遵守[阿里巴巴Java开发手册-终极版](https://github.com/alibaba/p3c)**  
 **现阶段理念是完全开源**  
 **如果你对该项目感兴趣,欢迎联系我一起合作**  
-**也欢迎各位大佬进行pr**
+**也欢迎各位大佬进行pr**  
 
-`本人QQ:2545946621`  
-`本人微信:(社恐i人,别吓我)`  
-<img src="./docs/images/weichat.png" style="zoom: 25%;" />
+`本人QQ:2545946621`
