@@ -65,7 +65,7 @@ pnpm run dev
 
 ## 注:
 **本项目架构方向是使用SpringBoot+MyBatisPlus+MySQL+React**  
-**开发规范遵守[阿里巴巴Java开发手册-终极版](https://github.com/alibaba/p3c)**  
+**开发规范遵守[阿里巴巴Java开发手册-黄山版](https://github.com/alibaba/p3c)**  
 **现阶段理念是完全开源**  
 **如果你对该项目感兴趣,欢迎联系我一起合作**  
 **也欢迎各位大佬进行pr**
